@@ -92,7 +92,7 @@ public class Main {
                 perso2.attaque(perso1);
             }
             if (perso1 instanceof Magicien && perso2 instanceof Magicien){
-                if (((Magicien) perso1).getPointMagie()<=0 || ((Magicien) perso2).getPointMagie()<=0){
+                if (((Magicien) perso1).getPointMagie()<=2 || ((Magicien) perso2).getPointMagie()<=2){
                     erreur=true;
                 }
             }
